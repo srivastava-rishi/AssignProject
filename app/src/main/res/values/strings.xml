@@ -3,7 +3,8 @@
 
 
     <string name="adminLogin">Admin Login</string>
-    <string name="user">User Login</string>
-    <string name="admin">Admin</string>
+    <string name="userLogin">User Login</string>
+
+    <string name="splashText">Assign Project</string>
 
 </resources>

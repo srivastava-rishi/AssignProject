@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+
+<layout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".login.RoleActivity">
@@ -14,12 +17,11 @@
         android:src="@drawable/ic_undraw_mobile_login_re_9ntv"
         android:layout_centerInParent="true" />
 
-
     <Button
-        android:id="@+id/btnAdmin"
+        android:id="@+id/btnAdminLogin"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_45sdp"
-        android:layout_above="@+id/btnUser"
+        android:layout_above="@+id/btnUserLogin"
         android:layout_marginStart="@dimen/_16sdp"
         android:layout_marginEnd="@dimen/_16sdp"
         android:backgroundTint="@color/Goo_Grey_Dark"
@@ -28,13 +30,13 @@
         android:minWidth="0dp"
         android:minHeight="0dp"
         android:singleLine="true"
-        android:text="@string/admin"
+        android:text="@string/adminLogin"
         android:textAllCaps="false"
         android:textColor="@color/White"
         android:textSize="@dimen/_10ssp" />
 
     <Button
-        android:id="@+id/btnUser"
+        android:id="@+id/btnUserLogin"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_45sdp"
         android:layout_alignParentBottom="true"
@@ -49,13 +51,10 @@
         android:minWidth="0dp"
         android:minHeight="0dp"
         android:singleLine="true"
-        android:text="@string/user"
+        android:text="@string/userLogin"
         android:textAllCaps="false"
         android:textColor="@color/White"
         android:textSize="@dimen/_10ssp" />
 
-
-
-
-
 </RelativeLayout>
+</layout>

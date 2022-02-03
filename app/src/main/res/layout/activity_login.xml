@@ -10,6 +10,13 @@
         android:background="@color/blueBackground"
         tools:context=".login.LoginActivity">
 
+        <include
+            android:id="@+id/iAppBar"
+            layout="@layout/view_app_bar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_alignParentTop="true" />
+
         <LinearLayout
             android:id="@+id/llContainer"
             android:layout_width="match_parent"
@@ -25,10 +32,10 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="@dimen/_20sdp"
                 android:indeterminateTint="@color/Yinmn_Blue"
-                android:visibility="visible" />
+                android:visibility="gone" />
 
             <TextView
-                android:id="@+id/tvTitle"
+                android:id="@+id/tvBanner"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/_6sdp"
@@ -37,7 +44,7 @@
                 android:fontFamily="sans-serif-medium"
                 android:gravity="center_horizontal"
                 android:padding="@dimen/_6sdp"
-                android:text="@string/adminLogin"
+                android:text=""
                 android:textColor="@color/Tele_Icons_Dark"
                 android:textSize="@dimen/_12ssp" />
 
@@ -84,8 +91,8 @@
                 android:layout_marginEnd="@dimen/_12sdp"
                 android:layout_marginBottom="@dimen/_25sdp"
                 android:backgroundTint="@color/Yinmn_Blue"
-                android:textAllCaps="false"
                 android:text="Login"
+                android:textAllCaps="false"
                 android:textColor="@color/white" />
 
         </LinearLayout>
