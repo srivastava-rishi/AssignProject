@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AssignTask</string>
+
+
+    <string name="adminLogin">Admin Login</string>
+    <string name="user">User Login</string>
+    <string name="admin">Admin</string>
+
+</resources>

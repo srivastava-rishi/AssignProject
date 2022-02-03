@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="carmine_color_red">#ff0038</color>
+    <color name="blue">#4d4dff</color>
+
+    <color name="d_d1_blue2">#4b89ff</color>
+    <color name="white2">#f3f3f3</color>
+    <color name="light_status_bar">#cccccc</color>
+    <color name="Dc1_blue_2">#4b89ff</color>
+    <color name="White">#ffffff</color>
+    <color name="Black">#000000</color>
+    <color name="Grey_6_Dark">#35383f</color>
+    <color name="d_d1_dark">#2e323d</color>
+    <color name="grey3">#7d858f</color>
+
+    <color name="colorPrimary">#151c25</color>
+    <color name="colorPrimaryDark">#151c25</color>
+    <color name="colorAccent">#f1b814</color>
+    <color name="text_light_blue">#566f9a</color>
+    <color name="Ghost_White">#f8f8ff</color>
+    <color name="grey2">#e2e8ea</color>
+    <color name="Goo_Grey_Dark">#202124</color>
+    <color name="Yinmn_Blue">#2e5090</color>
+    <color name="Tele_Icons_Dark">#7d8e98</color>
+    <color name="Grey_4_Dark">#c1c1c1</color>
+    <color name="transparent">#0000ffff</color>
+
+    <color name="blueBackground">#080E12</color>
+    <color name="buttonBackground">#3BACFF</color>
+
+</resources>

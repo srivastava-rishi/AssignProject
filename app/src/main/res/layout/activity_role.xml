@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login.RoleActivity">
+
+    <ImageView
+        android:id="@+id/ivLoginLogo"
+        android:layout_width="@dimen/_180sdp"
+        android:layout_height="@dimen/_180sdp"
+        android:src="@drawable/ic_undraw_mobile_login_re_9ntv"
+        android:layout_centerInParent="true" />
+
+
+    <Button
+        android:id="@+id/btnAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:layout_above="@+id/btnUser"
+        android:layout_marginStart="@dimen/_16sdp"
+        android:layout_marginEnd="@dimen/_16sdp"
+        android:backgroundTint="@color/Goo_Grey_Dark"
+        android:clickable="true"
+        android:focusable="true"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        android:singleLine="true"
+        android:text="@string/admin"
+        android:textAllCaps="false"
+        android:textColor="@color/White"
+        android:textSize="@dimen/_10ssp" />
+
+    <Button
+        android:id="@+id/btnUser"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:layout_marginEnd="@dimen/_16sdp"
+        android:layout_marginBottom="@dimen/_30sdp"
+        android:backgroundTint="@color/Goo_Grey_Dark"
+        android:clickable="true"
+        android:focusable="true"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        android:singleLine="true"
+        android:text="@string/user"
+        android:textAllCaps="false"
+        android:textColor="@color/White"
+        android:textSize="@dimen/_10ssp" />
+
+
+
+
+
+</RelativeLayout>
